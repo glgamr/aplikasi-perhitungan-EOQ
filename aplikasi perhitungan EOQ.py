@@ -15,7 +15,7 @@ Simulasi sistem persediaan untuk menghitung **jumlah pemesanan optimal (EOQ)** b
 # Input pengguna
 D = st.number_input("Permintaan tahunan (unit/tahun)", min_value=1.0, step=1.0)
 S = st.number_input("Biaya pemesanan per order (Rp)", min_value=0.0, step=100.0)
-H = st.number_input("Biaya penyimpanan per unit per tahun (Rp)", min_value=0.0, step=100.0)
+H = st.number_input("Biaya penyimpanan per unit per tahun (Rp)", min_value=0.0, step=100.00)
 
 # Tombol Hitung
 if st.button("Hitung EOQ"):
